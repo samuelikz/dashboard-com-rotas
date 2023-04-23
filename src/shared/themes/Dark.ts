@@ -16,8 +16,8 @@ export const DarkTheme = createTheme({
       contrastText: '#212B36'
     },
     background:{
-      default: '#292929',
-      paper: '#323436',
+      default: '#323436',
+      paper: '#292929',
     }
   }
 });
