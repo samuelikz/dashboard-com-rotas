@@ -22,7 +22,7 @@ export function Navegadores() {
         data={data}
         options={options}
         width={'auto'}
-        height={'350px'}
+        height={'450px'}
       />
     </>
   );

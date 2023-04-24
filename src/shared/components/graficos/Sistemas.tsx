@@ -20,7 +20,7 @@ export function Sistemas() {
         data={data}
         options={options}
         width={'auto'}
-        height={'350px'} />
+        height={'450px'} />
     </>
   );
 }

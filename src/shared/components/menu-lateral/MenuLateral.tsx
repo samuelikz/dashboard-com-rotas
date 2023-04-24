@@ -65,8 +65,8 @@ export const MenuLateral: React.FC<MenuLateralProps> = ({ children }) => {
       <Drawer open={isDrawerOpen} variant={smDown ? 'temporary' : 'permanent'} onClose={toggleDrawerOpen}>
         <Box width={theme.spacing(40)} height="100%" display='flex' flexDirection="column">
           <Box
-            width="90%"
-            height={theme.spacing(10)}
+            width="91%"
+            height={theme.spacing(8)}
             display="flex"
             alignItems="center"
             justifyContent="center"
@@ -88,7 +88,7 @@ export const MenuLateral: React.FC<MenuLateralProps> = ({ children }) => {
             </List>
           </Box>
           <Box flex={1}>
-            <List sx={{ width: '90%', padding: '0', margin: 2 }}>
+            <List sx={{ width: '100%', padding: '0', margin: 0 }}>
               {drawerOptions.map((drawerOption, index) => (
                 <div key={drawerOption.path}>
                   <ListItemLink
